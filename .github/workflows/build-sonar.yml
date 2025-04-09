@@ -18,7 +18,7 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@v2
         with:
           args: >
-            -Dsonar.projectKey=your_project_key
-            -Dsonar.organization=your_organization
+            -Dsonar.projectKey=bgsub_tp3-dvwa
+            -Dsonar.organization=bgsub
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
